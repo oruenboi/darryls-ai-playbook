@@ -12,12 +12,12 @@ Codex plugin package for coaching Agentic AI Foundations learners through a comp
 
 Install the plugin folder itself, not the repository root.
 
-1. Download or clone the `accountant-ai-playbook` repository.
+1. Download or clone the `darryls-ai-playbook` repository.
 2. In Codex App, choose the option to add or install a local plugin.
 3. Select this folder:
 
 ```text
-accountant-ai-playbook/plugins/assessment-submission-coach-plugin
+darryls-ai-playbook/plugins/assessment-submission-coach-plugin
 ```
 
 4. Confirm this manifest exists inside the selected folder:
@@ -31,7 +31,7 @@ accountant-ai-playbook/plugins/assessment-submission-coach-plugin
 Do not select the repo root:
 
 ```text
-accountant-ai-playbook
+darryls-ai-playbook
 ```
 
 That folder does not contain the plugin manifest at its top level.
@@ -42,7 +42,7 @@ If a learner wants Codex to help install the local plugin, they can paste:
 
 ```text
 Install the local Codex plugin from this folder:
-<full-path-to-accountant-ai-playbook>/plugins/assessment-submission-coach-plugin
+<full-path-to-darryls-ai-playbook>/plugins/assessment-submission-coach-plugin
 
 Check that .codex-plugin/plugin.json exists, then help me enable the Assessment Submission Coach plugin in Codex App.
 ```
@@ -50,12 +50,12 @@ Check that .codex-plugin/plugin.json exists, then help me enable the Assessment 
 On Windows, the path may look like:
 
 ```text
-C:\Users\<your-name>\Downloads\accountant-ai-playbook\plugins\assessment-submission-coach-plugin
+C:\Users\<your-name>\Downloads\darryls-ai-playbook\plugins\assessment-submission-coach-plugin
 ```
 
 ## Common Install Issues
 
-- The wrong folder was selected. Select `plugins/assessment-submission-coach-plugin`, not `accountant-ai-playbook`.
+- The wrong folder was selected. Select `plugins/assessment-submission-coach-plugin`, not `darryls-ai-playbook`.
 - The `.codex-plugin` folder is missing because files were copied manually. Download the GitHub ZIP or use `git clone`.
 - The repository ZIP was not extracted before installation.
 - Codex App needs to be refreshed or restarted after adding the plugin.

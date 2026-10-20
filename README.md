@@ -1,6 +1,6 @@
-# Accountant AI Playbook
+# Darryl's AI Playbook
 
-Practical skills, workflows, and best practices for accountants and corporate service providers building AI-enabled practices.
+Practical AI skills, workflows and playbooks curated by Darryl Wong.
 
 This repository is intended for a closed practitioner community. It focuses on reusable Codex skills, review checklists, templates, and operating patterns that help professionals deliver accounting, compliance, corporate secretarial, and client advisory work with stronger AI support.
 
