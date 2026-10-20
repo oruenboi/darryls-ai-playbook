@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xero Client API Access"
+  short_description: "Connect client Xero organisations to agents"
+  default_prompt: "Use $xero-client-api-access to connect this client agent to the requested Xero organisations and verify its API access."

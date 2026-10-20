@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Planning Pack"
+  short_description: "Plan and review production backend architectures."
+  default_prompt: "Use $backend-planning-pack to create a backend architecture plan with explicit assumptions, trade-offs, and operational detail."

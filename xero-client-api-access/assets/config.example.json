@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "credential_namespace": "example-client-agent",
+  "redirect_uri": "http://localhost:8769/callback",
+  "evidence_dir": "./xero-evidence",
+  "scopes": [
+    "offline_access",
+    "accounting.settings.read"
+  ],
+  "excluded": [],
+  "profiles": {
+    "primary": {
+      "app_name": "Example Client Agent",
+      "client_id": null,
+      "connection_limit": null,
+      "organisations": [
+        {
+          "label": "Example Company",
+          "expected_name": "EXAMPLE COMPANY PTE. LTD.",
+          "tenant_id": null
+        }
+      ]
+    }
+  }
+}

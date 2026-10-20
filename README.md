@@ -16,6 +16,7 @@ Skills from external repositories should be treated like third-party code. Revie
 ## Catalog
 
 Categories organise the catalog; existing folder paths remain unchanged.
+Choose a category by the job the skill supports, not by its author or model provider.
 
 ### Accounting
 
@@ -31,6 +32,8 @@ Categories organise the catalog; existing folder paths remain unchanged.
 ### Infrastructure & Integrations
 
 - [Agent Infrastructure Operator](agent-infrastructure-operator/) — inspect, diagnose and verify local or hosted agent infrastructure, with narrow permissions, user-facing evidence and rollback. Includes platform-check references and an operator-report template. Structural validation passed; live infrastructure behaviour has not been tested as part of this publication.
+- [Xero Client API Access](xero-client-api-access/) — connect and verify explicitly selected client organisations. Includes a Windows-only Python 3.11+ PKCE helper, user-bound encrypted token storage, a synthetic configuration example and 10 passing synthetic tests. No live Xero connection was tested for this publication; recheck current provider scopes, limits and terms before use.
+- [Backend Planning Pack](backend-planning-pack/) — optional advanced skill for planning integrations, internal tools and services. Includes a planning template and SaaS/event-driven checklists; it produces plans, not a deployed backend.
 
 ### Practice Productivity
 
@@ -65,5 +68,7 @@ New skills should include:
 - `assets/` for reusable templates or examples
 - `references/` for supporting guidance
 - `scripts/` for tested automation helpers, where relevant
+
+Add each skill to the most relevant catalog category with a short purpose and any platform restrictions. Include all resources needed by its instructions, distinguish synthetic tests from live verification, and keep client configuration and credentials outside shared skill packages.
 
 Do not commit client-identifiable information, credentials, local environment files, or unpublished regulatory source material unless the community has explicit rights to share it.
