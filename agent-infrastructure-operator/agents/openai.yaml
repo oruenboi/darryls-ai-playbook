@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Infrastructure Operator"
+  short_description: "Operate agent infrastructure with proof and rollback."
+  default_prompt: "Use $agent-infrastructure-operator to inspect this infrastructure, identify the failing layer, and propose a narrow change with user-facing verification and rollback."

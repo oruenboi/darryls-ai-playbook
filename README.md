@@ -13,16 +13,35 @@ This repository is intended for a closed practitioner community. It focuses on r
 
 Skills from external repositories should be treated like third-party code. Review the instructions, scripts, dependencies, and requested permissions before installing or running them. Do not use external skills with client data, credentials, or confidential practice information unless the source is trusted, the skill has been reviewed, and the data handling risk is acceptable for your firm.
 
-## Current Skill Areas
+## Catalog
 
-- AI visibility and GEO readiness audits
-- Bank-to-books bookkeeping workflows
-- DBS-to-Xero bank import conversion
-- Document-to-Markdown conversion
-- Singapore AML/CTF screening
-- Singapore corporate secretarial private-company workflows
-- Singapore KYC, CDD, and EDD guidance
-- Skills catalog documentation and orchestration planning
+Categories organise the catalog; existing folder paths remain unchanged.
+
+### Accounting
+
+- [Bank-to-books bookkeeping](bookkeeping-agent-bank2books/)
+- [DBS-to-Xero bank import conversion](dbs-xero-csv/)
+
+### Compliance & Corporate Services
+
+- [Singapore AML/CTF screening](sg-aml-ctf-screening-tool/)
+- [Singapore corporate secretarial workflows](sg-corpsec-private/)
+- [Singapore KYC, CDD and EDD](sg-kyc-cdd-edd/)
+
+### Infrastructure & Integrations
+
+- [Agent Infrastructure Operator](agent-infrastructure-operator/) — inspect, diagnose and verify local or hosted agent infrastructure, with narrow permissions, user-facing evidence and rollback. Includes platform-check references and an operator-report template. Structural validation passed; live infrastructure behaviour has not been tested as part of this publication.
+
+### Practice Productivity
+
+- [Document-to-Markdown conversion](document-to-md/)
+- [Skill orchestration planning](skill-orchestration-planner/)
+
+### Learning & Research
+
+- [AI visibility audits](ai-visibility-audit/)
+- [Web research-to-action prompt steps](web-research-to-action-department-prompt-steps/)
+- [Assessment submission coaching plugin](plugins/assessment-submission-coach-plugin/)
 
 ## Plugin Packages
 
