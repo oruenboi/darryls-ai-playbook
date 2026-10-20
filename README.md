@@ -15,7 +15,7 @@ Skills from external repositories should be treated like third-party code. Revie
 
 ## Catalog
 
-Skills and workflows are grouped into five broad folders. Plugin packages remain in `plugins/`.
+Skills and workflows are grouped into broad subject folders. Plugin packages remain in `plugins/`.
 Choose a category by the job the skill supports, not by its author or model provider.
 
 Folder paths have changed: links or installation commands using the previous root-level paths must include the category now. Skill names and invocation names are unchanged. Select the individual skill folder containing `SKILL.md`, not its category folder.
@@ -47,6 +47,14 @@ Folder paths have changed: links or installation commands using the previous roo
 - [AI visibility audits](research/ai-visibility-audit/)
 - [Web research-to-action prompt steps](research/web-research-to-action-department-prompt-steps/)
 - [Assessment submission coaching plugin](plugins/assessment-submission-coach-plugin/)
+
+### UI & User Experience
+
+[Browse the UI collection](ui/) for client portals, internal workbenches and AI review interfaces.
+
+- **Start here:** [UI Skillset Orchestrator](ui/ui-skillset-orchestrator/) selects the smallest relevant set; it does not require all skills for every task.
+- **Core:** [Foundations](ui/ui-foundations/), [UX & information architecture](ui/ui-ux-information-architecture/), [Frontend implementation](ui/ui-frontend-implementation/), [Data dashboards](ui/ui-data-dashboard/), [AI-aware design](ui/ui-ai-aware-design/).
+- **Advanced / optional:** [Design systems](ui/ui-design-system-architecture/), [Asset automation](ui/ui-asset-visual-automation/), [Tooling workflow](ui/ui-tooling-workflow/), [Performance](ui/ui-performance-optimisation/), [Strategic architecture](ui/ui-strategic-architecture/).
 
 ## Plugin Packages
 

@@ -1,0 +1,19 @@
+{
+  "color": {
+    "bg.surface": "",
+    "text.primary": "",
+    "border.default": ""
+  },
+  "spacing": {
+    "space.1": "4px",
+    "space.2": "8px"
+  },
+  "radius": {
+    "radius.sm": "4px",
+    "radius.md": "8px"
+  },
+  "type": {
+    "font.body": "",
+    "size.body": ""
+  }
+}
